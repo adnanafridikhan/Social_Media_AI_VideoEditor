@@ -1,4 +1,4 @@
-# AI Social_Media Research, Article, Thumbnail & Video Editor Automation
+# AI Social Media Research, Article, Thumbnail & Video Editor Automation
 
 <img width="1536" height="1024" alt="AI Social Media Automation Workflow" src="https://github.com/user-attachments/assets/9629c467-bd6b-488c-9552-e129f8579306" />
 
