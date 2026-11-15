@@ -1,0 +1,49 @@
+{
+  "overlays": [
+    {
+      "match": "video",
+      "type": "emoji",
+      "emoji": "🎬",
+      "animation": "pop-bounce",
+      "position": "top-right",
+      "size": 220,
+      "duration_ms": 1500
+    },
+    {
+      "match": "editing",
+      "type": "sticker",
+      "text": "✂️ EDIT",
+      "color": "#FFFFFF",
+      "background": "#FF3B30",
+      "animation": "rotate-in",
+      "position": "top-left",
+      "duration_ms": 1800
+    },
+    {
+      "match": "AI",
+      "type": "emoji",
+      "emoji": "🤖",
+      "animation": "pop-bounce",
+      "position": "top-right",
+      "size": 260,
+      "duration_ms": 2000
+    },
+    {
+      "match": "wait",
+      "type": "sticker",
+      "text": "⏸ WAIT",
+      "color": "#000000",
+      "background": "#FFD600",
+      "animation": "drop-bounce",
+      "position": "center",
+      "duration_ms": 1500
+    }
+  ],
+  "_doc": {
+    "schema": "Each overlay matches a single spoken word OR a phrase (case-insensitive). When Whisper detects a match, the overlay appears at that word's timestamp.",
+    "types": "emoji | sticker | lottie",
+    "animations": "pop-bounce | slide-in-left | slide-in-right | drop-bounce | fade-scale | rotate-in",
+    "positions": "top-left | top-right | bottom-left | bottom-right | center | above-caption",
+    "lottie_src": "Either a URL like https://lottie.host/abc123.json OR a path relative to remotion/public/ like 'lotties/money.json'"
+  }
+}

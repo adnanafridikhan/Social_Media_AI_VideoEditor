@@ -1,0 +1,44 @@
+{
+  "silence": {
+    "threshold_db": -55,
+    "min_duration_ms": 500,
+    "keep_pause_ms": 250
+  },
+  "fillers": {
+    "words": ["um", "uh", "like", "basically", "you know", "right right"],
+    "remove_automatically": true
+  },
+  "repeats": {
+    "similarity_threshold": 0.75,
+    "auto_cut": true,
+    "keep": "second",
+    "flag_borderline": true
+  },
+  "audio_enhancement": {
+    "enabled": true,
+    "engine": "noisereduce",
+    "strength": "default"
+  },
+  "output": {
+    "format": "mp4",
+    "crossfade_ms": 50,
+    "generate_srt": true,
+    "generate_report": true
+  },
+  "composite": {
+    "enabled": true,
+    "pip_width_pct": 22,
+    "pip_position": "bottom-left",
+    "pip_padding_px": 30,
+    "corner_radius_px": 30,
+    "sync_sample_seconds": 60
+  },
+  "hook": {
+    "enabled": true,
+    "remotion_dir": "remotion",
+    "default_duration_seconds": 3.0,
+    "fps": 30,
+    "width": 1920,
+    "height": 1080
+  }
+}
