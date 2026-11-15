@@ -1,6 +1,6 @@
 # AI Social_Media Research, Article, Thumbnail & Video Editor Automation
 
-![Uploading AI Social Media Automation Workflow.png…]()
+<img width="1536" height="1024" alt="AI Social Media Automation Workflow" src="https://github.com/user-attachments/assets/9629c467-bd6b-488c-9552-e129f8579306" />
 
 
 An AI-powered social media content production workflow for **topic research, article and social post drafting, thumbnail generation, and video editing**. Designed to streamline repeatable creative tasks and prepare content assets for multiple social media platforms.
